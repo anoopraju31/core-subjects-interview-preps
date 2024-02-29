@@ -95,3 +95,17 @@
     DROP DATABASE IF EXISTS MYDB1;
     ```
     **Note: If MYDB1 database doesn't exist it show a warning.**
+
+5. **Before create a table we should select which database which the table should be a part of :**
+    ```sql
+    USE MYDB1;
+    ```
+
+5. **Create Table:**
+    ```sql
+    CREATE TABLE STUDENTS (
+        ST_ID INT PRIMARY KEY,
+        F_NAME VARCHAR(20),
+        L_NAME VARCHAR(20)
+    );
+    ```
