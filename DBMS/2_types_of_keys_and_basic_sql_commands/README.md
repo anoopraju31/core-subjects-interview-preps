@@ -109,3 +109,11 @@
         L_NAME VARCHAR(20)
     );
     ```
+6. **Another way of selecting the Database without even writing an additional line of query:**
+    ```sql
+    CREATE TABLE MYDB1.STUDENTS (
+        ST_ID INT PRIMARY KEY,
+        F_NAME VARCHAR(20),
+        L_NAME VARCHAR(20)
+    );
+    ```
