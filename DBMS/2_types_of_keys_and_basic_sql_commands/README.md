@@ -69,3 +69,16 @@
       | 2    | XYZ    | Subran |
 
     Here, we can retrieve all the details of the department using the **d_id** and for the **Student** Table **d_id** is the **foreign key**.
+
+
+### SQL queries
+1. Create a Database:
+    ```sql
+    CREATE DATABASE MYDB1;
+    ```
+    Note: This will error if the command is already executed.
+2. Conditional creation of Database:
+    ```sql
+    CREATE DATABASE IF NOT EXISTS MYDB1;
+    ```
+    
