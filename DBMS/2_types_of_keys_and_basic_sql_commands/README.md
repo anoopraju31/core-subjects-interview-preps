@@ -44,3 +44,8 @@
           | 2    | Apoorva  | KR     | 30      | 5    | apoorva@gmail.com | 9235856804 |
           | 3    | Mayur    | Yadav  | 15      | 1    | mayur@gmail.com   | 6854357065 |
         
+4. **Composite Key:**   
+    - A Composite key is a combination of two or more attributes
+    - example
+        - **{roll_no, d_id}** is an example of composite key.
+        - **{f_name, roll_no, d_id}** is not a composite key.
