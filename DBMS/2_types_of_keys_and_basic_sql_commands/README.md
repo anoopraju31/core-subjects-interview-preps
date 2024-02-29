@@ -30,3 +30,17 @@
       | f_name, roll_no, d_id     | ✅                        | ❌                        | 
       | email                     | ✅                        | ✅                        | 
       | roll_no, d_id             | ✅                        | ✅                        |
+3. **Primary Key:**
+    - **A primary key** is selected from candidate key by the database designer.
+    - Primary Key must be **unique**.
+    - Primary Key cannot be **null**.
+    - There must only one primary key in a table.
+    - examples:
+        - **s_id** can be used a primary key.
+        - **m_no** cannot be used as a primary key.
+        - | s_id | f_name   | l_name | roll_no | d_id | email             | m_no       |
+          |------|----------|--------|---------|------|-------------------|------------|
+          | 1    | Akhilesh | Yadav  | 15      | 2    | akilesh@gmail.com | 9823456708 |
+          | 2    | Apoorva  | KR     | 30      | 5    | apoorva@gmail.com | 9235856804 |
+          | 3    | Mayur    | Yadav  | 15      | 1    | mayur@gmail.com   | 6854357065 |
+        
