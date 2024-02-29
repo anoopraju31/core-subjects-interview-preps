@@ -72,13 +72,26 @@
 
 
 ### SQL queries
-1. Create a Database:
+1. **Create a Database:**
     ```sql
     CREATE DATABASE MYDB1;
     ```
-    Note: This will error if the command is already executed.
-2. Conditional creation of Database:
+    **Note: This will error if the command is already executed.**
+
+2. **creation of Database only if its not present:**
     ```sql
     CREATE DATABASE IF NOT EXISTS MYDB1;
     ```
-    
+    **Note: If MYDB1 database already exists it show a warning.**
+
+3. **Delete/Drop Database:**
+    ```sql
+    DROP DATABASE MYDB1;
+    ```
+    **Note: If MYDB1 database doesn't exist it show error.**
+
+4. **Drop Database only if its present**:
+    ```sql
+    DROP DATABASE IF EXISTS MYDB1;
+    ```
+    **Note: If MYDB1 database doesn't exist it show a warning.**
