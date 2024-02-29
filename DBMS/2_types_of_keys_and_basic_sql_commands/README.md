@@ -117,3 +117,7 @@
         L_NAME VARCHAR(20)
     );
     ```
+7. **Inserting data into table:**
+    ```sql
+    INSERT INTO STUDENTS VALUES (1, "Akhilesh", "Yadav");
+    ```
