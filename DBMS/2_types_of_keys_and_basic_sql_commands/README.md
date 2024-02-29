@@ -67,3 +67,5 @@
       |------|--------|--------|
       | 1    | ABC    | Aryan  |
       | 2    | XYZ    | Subran |
+
+    Here, we can retrieve all the details of the department using the **d_id** and for the **Student** Table **d_id** is the **foreign key**.
