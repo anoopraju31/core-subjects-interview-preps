@@ -18,3 +18,15 @@
       | f_name, roll_no, d_id     | ✅                        | 
       | email                     | ✅                        |
       | roll_no, d_id             | ✅                        |
+
+2. **Candidate Key:**
+    - A **candidate key** is minimal of **super key**.
+    - **Candidate key** must be a **Super Key**.
+    - It is a subset of **Super Key**.
+    - | Combination of Attributes | Super Keys                 | Candidate Keys            |
+      |---------------------------|----------------------------|---------------------------|
+      | f_name, l_name, email     | ✅                        | ❌                        |
+      | f_name, email             | ✅                        | ❌                        |
+      | f_name, roll_no, d_id     | ✅                        | ❌                        | 
+      | email                     | ✅                        | ✅                        | 
+      | roll_no, d_id             | ✅                        | ✅                        |
