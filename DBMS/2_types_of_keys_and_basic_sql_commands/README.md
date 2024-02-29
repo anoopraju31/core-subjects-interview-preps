@@ -49,3 +49,21 @@
     - example
         - **{roll_no, d_id}** is an example of composite key.
         - **{f_name, roll_no, d_id}** is not a composite key.
+
+5. **Foreign Key:** 
+    - A foreign key is an attributes that establishes a relation.
+    - It reference to the primary key of another table.
+    - example:
+    **Student Table**
+    - | s_id | f_name   | l_name | roll_no | d_id | email             | m_no       |
+      |------|----------|--------|---------|------|-------------------|------------|
+      | 1    | Akhilesh | Yadav  | 15      | 2    | akilesh@gmail.com | 9823456708 |
+      | 2    | Apoorva  | KR     | 30      | 2    | apoorva@gmail.com | 9235856804 |
+      | 3    | Mayur    | Yadav  | 15      | 1    | mayur@gmail.com   | 6854357065 |
+
+      **Department Table**
+      
+      | d_id | d_name | d_hod  |
+      |------|--------|--------|
+      | 1    | ABC    | Aryan  |
+      | 2    | XYZ    | Subran |
