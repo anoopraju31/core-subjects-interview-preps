@@ -121,3 +121,7 @@
     ```sql
     INSERT INTO STUDENTS VALUES (1, "Akhilesh", "Yadav");
     ```
+8. **Show all records of a table:**
+    ```sql
+    SELECT * FROM STUDENTS;
+    ```
