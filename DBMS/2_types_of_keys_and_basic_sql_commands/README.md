@@ -125,3 +125,8 @@
     ```sql
     SELECT * FROM STUDENTS;
     ```
+
+9. **Add an another attribute:**
+    ```sql
+    ALTER TABLE STUDENTS ADD D_ID INT;
+    ```
