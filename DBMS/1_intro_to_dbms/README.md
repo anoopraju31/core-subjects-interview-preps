@@ -32,6 +32,21 @@
 1. **Relation Database**
     - **MySQL** is database and **SQL(Structured Query Language)** is language used to query the MySQL database.
     - Data is stored in the form of a **table** consisting of **rows** and **columns**
-    - **Columns** are also called as **fields** or **attributes**.
-    - **Rows** are alse called as **tuples** or **records**.
+    - **Table** is also called as **Relation**.
+    - **Columns** are also called as **fields** or **attributes** is the characteristics of the entities.
+    - **Rows** are alse called as **tuples** or **records** represents individual instance of data of entity.
     ![](images/rdms_table.webp)
+    - **Degree** is the number of **attributes/colums**.
+    - **Cardinality** is the number of **tuples/rows**.
+
+#### Properties/Rules of Relation/Table
+1. Each row is unique
+    - For a row to be unique atleast one attribute must be unique.
+    ![](images/each-row-is-unique.png)
+2. Each cell can only contain a single value.
+    - A cell can't contain any list/collection of data
+    ![](images/cell-must-contain-single-data.png)
+    - To Resolve this we can create an another table for mobile numbers
+    ![](images/mobile-numbers.png)
+3. Order of the columns shouldn't matter.
+4. Order of the rows Shouldn't matter.
